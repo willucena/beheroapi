@@ -1,0 +1,13 @@
+{
+    "sqltools.connections": [
+        {
+            "database": "heroku_e12d23cea0e765b",
+            "dialect": "MySQL",
+            "name": "MYSQL_HEROKU",
+            "password": "34e6a558",
+            "port": 3306,
+            "server": "us-cdbr-iron-east-01.cleardb.net",
+            "username": "b56a41d71b8999"
+        }
+    ]
+}

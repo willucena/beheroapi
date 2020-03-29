@@ -41,12 +41,12 @@ module.exports = {
   },
 
   production: {
-    client: 'postgresql',
+    client: 'mysql',
     connection: {
-      host: 'ec2-52-86-33-50.compute-1.amazonaws.com',
-      database: 'd8p7o39llps5tt',
-      user:     'mzkabfclnebqug',
-      password: 'a04d83790080281a4f1f7c1b4988cdbede6a0c13ba76066a61de56a22243fb43'
+      host: 'us-cdbr-iron-east-01.cleardb.net',
+      database: 'heroku_e12d23cea0e765b',
+      user:     'b56a41d71b8999',
+      password: '34e6a558'
     },
     pool: {
       min: 2,
