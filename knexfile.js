@@ -59,9 +59,7 @@ module.exports = {
       user:     process.env.MYSQL_USER,
       password: process.env.MYSQL_PASS
     },
-    migrations: {
-      directory : './src/database/migrations'
-    }
-  }
+    useNullAsDefault: true
+}
 
 };
