@@ -1,8 +1,0 @@
-{
-    "env" : {
-        "MYSQL_USER" : "b56a41d71b8999",
-        "MYSQL_PASS" : "34e6a558",
-        "MYSQL_DATABASE" : "heroku_e12d23cea0e765b",
-        "MYSQL_HOST" : "us-cdbr-iron-east-01.cleardb.net"
-    }
-}
