@@ -13,9 +13,9 @@ const config = process.env.NODE_ENV === 'test'  ? configuration.test : configura
 const connection = knex(config);
 
 // if(process.env.NODE_ENV === 'production'){
-    beforeEach( async () => {
-        await connection.migrate.latest;
-    });
+    // beforeEach( async () => {
+    //     await connection.migrate.latest;
+    // });
 // }
 
 module.exports = connection;
